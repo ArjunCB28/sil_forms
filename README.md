@@ -1,12 +1,22 @@
-# sil-forms
+# Angular + Form.io Demo
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.16.0.
+This project provides an Angular 8 demonstration with Form.io platform.
 
-## Build & development
+### Installation
+Type the following to install the demo.
 
-Run `grunt` for building and `grunt serve` for preview.
+```
+npm install -g @angular/cli
+npm install
+```
 
-## Testing
+### Running the demo
+Type the following to run the demo.
 
-Running `grunt test` will run the unit tests with karma.
+```
+ng serve
+```
+
+### Live Demonstration
+
+To see a live demonstration, go to [https://formio.github.io/angular-demo/](https://formio.github.io/angular-demo/)

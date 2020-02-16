@@ -1,0 +1,30 @@
+.navbar-wrapper {
+	height: 50px;
+	//background: #E0E0E0;
+	// #9E9E9E  673AB7
+	color: black;
+	font-size: 18px;
+	padding: 15px 50px 0px 50px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.router-link {
+	padding: 10px;
+	text-align: center;
+	display: inline-block;
+	width: 160px;
+	cursor: pointer;
+    vertical-align: top;
+
+    font-weight: 600;
+    color: #3d5164;
+    text-decoration: none;
+}
+
+.navbar-wrapper img {
+    height: 50px;
+    position: relative;
+    left: -30px;
+    cursor: pointer
+}

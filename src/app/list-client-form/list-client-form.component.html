@@ -1,0 +1,16 @@
+<div style="display: flex; justify-content: center;">
+  <div class="card" style="display: flex; justify-content: center; margin: 20px;  width: 60%;">
+    <table class="table">
+      <thead style="text-align: center;">
+        <tr>
+          <th> Form Name</th>
+        </tr>
+      </thead>
+      <tbody style="text-align: center; cursor: pointer;">
+        <tr *ngFor="let data of tableData">
+          <th><a [routerLink]="['/client', data.Table_Name]">{{data.Table_Name}}</a></th>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

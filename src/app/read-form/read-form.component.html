@@ -1,0 +1,9 @@
+<div style="display: flex; justify-content: center;">
+  <div style="width: 60%;">
+    <div *ngFor="let data of formData" class="card" style="margin: 10px;">
+      <div style="margin:20px">
+        <formio [form]="formStructure" [submission]='data' [readOnly]=true></formio>
+      </div>
+    </div>
+  </div>
+</div>
